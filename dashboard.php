@@ -35,6 +35,7 @@ function formatDate($date) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Qbee Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/x-icon" href="icon2.png">
 </head>
 
 <body>
@@ -61,7 +62,7 @@ function formatDate($date) {
         </div>
 
         <div class="link-area">
-            <input type="text" id="share-link" value="https://<?php echo $_SERVER['HTTP_HOST']; ?>/Qbee-t/ask.php?user=<?php echo htmlspecialchars($_SESSION['username']); ?>" readonly>
+            <input type="text" id="share-link" value="https://<?php echo $_SERVER['HTTP_HOST']; ?>/Qbee/ask.php?user=<?php echo htmlspecialchars($_SESSION['username']); ?>" readonly>
             <button class="share-btn" onclick="shareLink()">Share</button>
             <button class="copy-btn" onclick="copyLink()">Copy</button>
         </div>

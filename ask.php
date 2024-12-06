@@ -59,6 +59,7 @@ $conn->close();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ask a Question</title>
     <link rel="stylesheet" href="style_form.css">
+    <link rel="icon" type="image/x-icon" href="icon2.png">
 </head>
 
 <body>
