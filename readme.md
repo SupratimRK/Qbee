@@ -114,8 +114,8 @@ Welcome to the **Qbee Dashboard**, a dynamic and interactive web application des
 
 ### 1. **Clone the Repo**
 ```bash
-git clone https://github.com/your-username/qbee-dashboard.git
-cd qbee-dashboard
+git clone https://github.com/SupratimRK/Qbee.git
+cd Qbee
 ```
 
 ### 2. **Create the MySQL Database**
